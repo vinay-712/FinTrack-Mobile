@@ -1,0 +1,15 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies and reports
+node_modules/
+coverage/
+*.log
+
+# Local environment
+.env
+.env.*
+!.env.example
