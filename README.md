@@ -1,65 +1,156 @@
 <div align="center">
 
+<img src="assets/fintrack-hero.svg" alt="FinTrack Mobile — money clarity without the clutter" width="100%" />
+
+<br />
+
 # FinTrack Mobile
 
-### Money clarity, without the clutter.
+**A focused, mobile-first personal finance experience.**
 
-A calm, mobile-first personal finance experience for understanding balances, spending patterns, budgets, and everyday transactions at a glance.
+[![Live Prototype](https://img.shields.io/badge/Live_Prototype-635CF7?style=for-the-badge&logo=github&logoColor=white)](https://vinay-712.github.io/FinTrack-Mobile/)
+[![Figma](https://img.shields.io/badge/View_in_Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/trcrj5gK7BnSyuliTVtqU1/FinTrack-mobile?node-id=0-1)
+[![License: MIT](https://img.shields.io/badge/License-MIT-3DC785?style=for-the-badge)](LICENSE)
 
-[View the Figma design](https://www.figma.com/design/trcrj5gK7BnSyuliTVtqU1/FinTrack-mobile?node-id=0-1) · [Open the web prototype](https://vinay-712.github.io/FinTrack-Mobile/)
+<br />
+
+FinTrack turns everyday spending into a calm, useful picture of where your money goes.
 
 </div>
 
 ---
 
-## Overview
+## The product
 
-FinTrack Mobile explores how personal finance can feel focused instead of overwhelming. The experience gives essential numbers a strong visual hierarchy, surfaces spending by category, and keeps recent activity close at hand—all in a compact dark-mode interface.
+Managing money should create confidence—not more noise. FinTrack Mobile brings balances, spending patterns, budgets, and recent transactions together in a clean dark-mode interface designed for quick daily check-ins.
 
-## Product highlights
+The product balances information density with calm visual hierarchy: the most important number leads, supporting context stays close, and every screen has a clear next action.
 
-- **At-a-glance balance** — income, expenses, and month-over-month movement in one focused card
-- **Visual spending overview** — category-level context without a dense analytics dashboard
-- **Recent activity** — scannable transaction history with clear income and expense states
-- **Responsive presentation** — a full-size mobile experience on phones and a polished product showcase on desktop
-- **Design-system foundations** — reusable color, spacing, typography, card, and status patterns
+<table>
+<tr>
+<td width="33%"><strong>💳 See the full picture</strong><br /><sub>Balance, income, expenses, and monthly movement in one focused view.</sub></td>
+<td width="33%"><strong>📊 Understand spending</strong><br /><sub>Category-level insights that remain useful without becoming overwhelming.</sub></td>
+<td width="33%"><strong>🎯 Stay intentional</strong><br /><sub>Budgets, goals, recurring payments, and account tools in one system.</sub></td>
+</tr>
+</table>
 
-## Screens in the design
+## Experience at a glance
 
-Dashboard · Transactions · Budgets · Profile · Add Transaction · Finance Hub · Reports · Accounts · Categories · Goals · Recurring · Settings
+| Area | What it helps users do |
+|---|---|
+| **Dashboard** | Understand current financial health in seconds |
+| **Transactions** | Review income and spending with clear category context |
+| **Budgets** | Track monthly limits and spot categories needing attention |
+| **Finance Hub** | Access goals, reports, accounts, categories, and recurring payments |
+| **Profile & Settings** | Manage preferences and account-level controls |
+| **Add Transaction** | Record income or expenses with minimal friction |
 
-## Built with
+## Design principles
 
-- Semantic HTML5
-- Modern responsive CSS
-- Lightweight vanilla JavaScript
-- Figma as the product-design source of truth
+### 1. Lead with clarity
 
-## Run locally
+The total balance anchors the experience. Income, expenses, and trend context support it without competing for attention.
+
+### 2. Make data approachable
+
+Simple visual summaries and human-readable categories replace dense dashboards. Color is used intentionally for status and grouping—not decoration.
+
+### 3. Keep common actions close
+
+Recent activity, navigation, and the add-transaction action remain reachable from the primary dashboard.
+
+### 4. Design for real mobile use
+
+The 390 × 844 layout uses comfortable touch targets, compact information groupings, and predictable bottom navigation.
+
+## Visual system
+
+| Foundation | Direction |
+|---|---|
+| **Canvas** | Deep navy surfaces reduce glare and create focus |
+| **Brand** | Indigo communicates intelligence, trust, and momentum |
+| **Status** | Green highlights positive movement; warm accents distinguish spending groups |
+| **Typography** | Inter keeps financial data precise and highly legible |
+| **Shape** | Rounded cards soften dense information and establish clear groupings |
+| **Spacing** | A consistent rhythm keeps the interface calm and scannable |
+
+### Core palette
+
+```text
+App surface       #070D19
+Card surface      #0E1421
+Brand primary     #635CF7
+Text primary      #F5F7FF
+Text secondary    #9EA8BF
+Positive / income #3DC785
+Expense accent    #FF4F68
+```
+
+## Prototype
+
+This repository includes a responsive, dependency-free web interpretation of the FinTrack dashboard.
+
+- On **desktop**, it appears as a polished product presentation with a framed mobile preview.
+- On **mobile**, it becomes a full-screen app experience.
+- The interface includes a lightweight interaction on the primary add action.
+- No framework, installation, or build step is required.
+
+### Run locally
 
 ```bash
 git clone https://github.com/vinay-712/FinTrack-Mobile.git
 cd FinTrack-Mobile
 ```
 
-Open `index.html` in a browser. No build step or dependencies are required.
+Open `index.html` in your browser.
 
-## Design direction
+## Repository structure
 
-FinTrack uses a deep navy canvas, elevated indigo surfaces, and restrained positive and negative status colors. Inter keeps financial data highly legible, while generous spacing and rounded cards make dense information approachable.
+```text
+FinTrack-Mobile/
+├── assets/
+│   └── fintrack-hero.svg   # Branded project artwork
+├── index.html              # Responsive product prototype
+├── README.md               # Product case study and documentation
+├── CONTRIBUTING.md         # Contribution workflow
+└── LICENSE                 # MIT license
+```
+
+## Screen inventory
+
+The complete Figma flow contains:
+
+`Dashboard` · `Transactions` · `Budgets` · `Profile` · `Add Transaction` · `Finance Hub` · `Reports` · `Accounts` · `Categories` · `Goals` · `Recurring` · `Settings`
 
 ## Roadmap
 
-- [ ] Transaction filtering and search
-- [ ] Budget creation and alerts
+- [x] Core mobile visual system
+- [x] Dashboard experience
+- [x] Responsive web showcase
+- [x] Complete multi-screen product flow in Figma
+- [ ] Interactive transaction filtering and search
+- [ ] Budget creation and threshold alerts
 - [ ] Category and recurring-payment management
-- [ ] Local persistence
-- [ ] Accessible chart summaries
+- [ ] Local persistence and editable demo data
+- [ ] Accessible chart descriptions and keyboard flows
+- [ ] Production application architecture
+
+## Contributing
+
+Thoughtful contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
+
+If you find a bug or have a product idea, [open an issue](https://github.com/vinay-712/FinTrack-Mobile/issues) with clear context and, where relevant, screenshots.
 
 ## License
 
-Available under the [MIT License](LICENSE).
+FinTrack Mobile is available under the [MIT License](LICENSE).
+
+---
 
 <div align="center">
-  <sub>Designed and built with care for clearer financial decisions.</sub>
+
+**Designed for clearer financial decisions.**
+
+<sub>FinTrack Mobile · Product design and responsive prototype</sub>
+
 </div>
