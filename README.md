@@ -86,13 +86,22 @@ Positive / income #3DC785
 Expense accent    #FF4F68
 ```
 
-## Prototype
+## Interactive prototype
 
-This repository includes a responsive, dependency-free web interpretation of the FinTrack dashboard.
+<div align="center">
+
+### [▶ Launch the FinTrack Mobile prototype](https://vinay-712.github.io/FinTrack-Mobile/)
+
+Use the bottom navigation to explore **Home, Transactions, Budgets, and Profile**. Tap the center **+** button to open the working add-transaction flow.
+
+</div>
+
+This repository includes a responsive, dependency-free multi-screen interpretation of the FinTrack experience.
 
 - On **desktop**, it appears as a polished product presentation with a framed mobile preview.
 - On **mobile**, it becomes a full-screen app experience.
-- The interface includes a lightweight interaction on the primary add action.
+- Home, Transactions, Budgets, and Profile are fully navigable inside the device preview.
+- The add-transaction action opens an interactive bottom sheet with save confirmation.
 - No framework, installation, or build step is required.
 
 ### Run locally
@@ -127,6 +136,8 @@ The complete Figma flow contains:
 - [x] Core mobile visual system
 - [x] Dashboard experience
 - [x] Responsive web showcase
+- [x] Interactive multi-screen prototype
+- [x] Automated GitHub Pages deployment
 - [x] Complete multi-screen product flow in Figma
 - [ ] Interactive transaction filtering and search
 - [ ] Budget creation and threshold alerts
