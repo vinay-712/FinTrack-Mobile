@@ -9,7 +9,6 @@
 **A focused, mobile-first personal finance experience.**
 
 [![Live Prototype](https://img.shields.io/badge/Live_Prototype-635CF7?style=for-the-badge&logo=github&logoColor=white)](https://vinay-712.github.io/FinTrack-Mobile/)
-[![Figma](https://img.shields.io/badge/View_in_Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/trcrj5gK7BnSyuliTVtqU1/FinTrack-mobile?node-id=0-1)
 [![License: MIT](https://img.shields.io/badge/License-MIT-3DC785?style=for-the-badge)](LICENSE)
 [![Quality checks](https://img.shields.io/github/actions/workflow/status/vinay-712/FinTrack-Mobile/quality.yml?style=for-the-badge&label=Quality)](https://github.com/vinay-712/FinTrack-Mobile/actions/workflows/quality.yml)
 
